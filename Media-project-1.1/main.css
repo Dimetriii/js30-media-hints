@@ -42,10 +42,6 @@ body {
     contrast(100%);
 }
 
-.header-container__navigation {
-
-}
-
 ul {
     display: flex;
 }
@@ -91,10 +87,11 @@ footer {
 
 .link-github {
     color: white;
+    transition: 0.3s;
 }
 
-.logo-RS-link {
-
+.link-github:hover {
+    color: #BBAC82FF;
 }
 
 .logo-RS {
