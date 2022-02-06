@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    height: 60px;
+}
+
+.header-container {
+    margin: 0px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-container__logo_size {
+    width: 50px;
+    height: 50px;
+    transition: 0.3s;
+    cursor: pointer;
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+}
+
+.header-container__logo_size:hover {
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(7deg) brightness(100%)
+    contrast(100%);
+}
+
+ul {
+    display: flex;
+}
+
+.nav-item {
+    padding: 0px 20px;
+    font-size: 20px;
+    color: white;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    color: #BBAC82FF;
+}
+
+.nav-item.active {
+    color: #BBAC82FF;
+}
+
+/* Header end*/
+
+/* Main */
+
+.player-img {
+    width: 100%;
+    height: calc(100vh - 125px);
+}
+
+.button {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    left: 45%;
+    bottom: 45%;
+    background: url("/Media-project-1.1/assets/svg/play.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    border: none;
+}
+
+.button.pause{ 
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    left: 45%;
+    bottom: 45%;    
+    background: url("/Media-project-1.1/assets/svg/pause.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    border: none;
+}
+
+
+/* footer */
+footer {
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 80px;
+}
+
+.size-span {
+    font-size: 20px;
+}
+
+.padding {
+    padding-right: 20px;
+}
+
+.link-github {
+    color: white;
+    transition: 0.3s;
+}
+
+.link-github:hover {
+    color: #BBAC82FF;
+}
+
+.logo-RS {
+    width: 135px;
+    transition: 0.3s;
+}
+
+.logo-RS:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+}
