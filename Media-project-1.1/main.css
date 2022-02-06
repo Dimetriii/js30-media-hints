@@ -24,10 +24,6 @@ body {
     justify-content: space-between;
 }
 
-.header-container__logo {
-
-}
-
 .header-container__logo_size {
     width: 50px;
     height: 50px;
@@ -51,19 +47,52 @@ ul {
     font-size: 20px;
     color: white;
     transition: 0.1s;
+    cursor: pointer;
 }
 
 .nav-item:hover {
     color: #BBAC82FF;
 }
+
+.nav-item.active {
+    color: #BBAC82FF;
+}
+
 /* Header end*/
 
 /* Main */
-.main-wrapper {
+
+.player-img {
     width: 100%;
-    background: url("/Media-project-1.1/assets/img/forest.jpg");
-    height: calc(100vh - 120px);
+    height: calc(100vh - 125px);
+}
+
+.button {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    left: 45%;
+    bottom: 45%;
+    background: url("/Media-project-1.1/assets/svg/play.svg");
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+    cursor: pointer;
+    border: none;
+}
+
+.button.pause{ 
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    left: 45%;
+    bottom: 45%;    
+    background: url("/Media-project-1.1/assets/svg/pause.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    border: none;
 }
 
 

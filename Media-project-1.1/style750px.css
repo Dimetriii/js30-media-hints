@@ -1,0 +1,54 @@
+@media screen and (max-width: 750px) {
+    .header-container {
+        margin: 0px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav-item {
+        padding: 0px 15px;
+        font-size: 18px;
+        color: white;
+        transition: 0.1s;
+        cursor: pointer;
+    }
+
+    .button {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        left: 45%;
+        bottom: 45%;
+        background: url("/Media-project-1.1/assets/svg/play.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        cursor: pointer;
+        border: none;
+    }
+    
+    .button.pause{ 
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        left: 45%;
+        bottom: 45%;   
+        background: url("/Media-project-1.1/assets/svg/pause.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        cursor: pointer;
+        border: none;
+    }
+
+    .size-span {
+        font-size: 18px;
+    }
+
+    .logo-RS {
+        width: 125px;
+        transition: 0.3s;
+    }
+    
+}

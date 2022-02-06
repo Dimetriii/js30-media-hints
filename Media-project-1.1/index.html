@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ecosounds</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style750px.css">
+    <link rel="stylesheet" href="style600px.css">
     <link rel="shortcut icon" type="image/png" href="/Media-project-1.1/assets/favicon.ico">
 
 </head>
@@ -21,12 +23,12 @@
 
             <div class="header-container__navigation">
                 <nav>
-                    <ul>
-                        <li class="nav-item">Соловей</li>
-                        <li class="nav-item">Дрозд</li>
-                        <li class="nav-item">Малиновка</li>
-                        <li class="nav-item">Жаворонок</li>
-                        <li class="nav-item">Славка</li>
+                    <ul class="items">
+                        <li class="nav-item" data-item="solovey">Соловей</li>
+                        <li class="nav-item" data-item="drozd">Дрозд</li>
+                        <li class="nav-item" data-item="zarynka">Малиновка</li>
+                        <li class="nav-item" data-item="javoronok">Жаворонок</li>
+                        <li class="nav-item" data-item="slavka">Славка</li>
                     </ul>
                 </nav>
             </div>
@@ -34,7 +36,12 @@
     </header>
     <!-- Header end-->
 
-    <main class="main-wrapper"></main>
+    <main class="background">
+        <audio src="./assets/audio/"></audio>
+        <img src="assets/img/forest.jpg" alt="foto" class="player-img">
+        <button class="button"></button>
+
+    </main>
 
     <footer>
         <div class="size-span">
@@ -44,7 +51,8 @@
         </div>
 
         <div>
-            <a href="https://rs.school/js-stage0/" class="logo-RS-link"><img src="/Media-project-1.1/assets/svg/rss.svg" alt="logo" class="logo-RS"></a>
+            <a href="https://rs.school/js-stage0/" class="logo-RS-link"><img src="/Media-project-1.1/assets/svg/rss.svg"
+                    alt="logo" class="logo-RS"></a>
         </div>
     </footer>
 
