@@ -73,7 +73,7 @@ ul {
     position: absolute;
     left: 45%;
     bottom: 45%;
-    background: url("/Media-project-1.1/assets/svg/play.svg");
+    background: url("assets/svg/play.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -87,7 +87,7 @@ ul {
     position: absolute;
     left: 45%;
     bottom: 45%;    
-    background: url("/Media-project-1.1/assets/svg/pause.svg");
+    background: url("assets/svg/pause.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
